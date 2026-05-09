@@ -4,6 +4,14 @@
     margin: 10px 120px;
     overflow: hidden;
 }
+
+.container_0 { 
+    width: 1200px;
+    margin: 10px 120px;
+    overflow: hidden;
+    display: flex;
+}
+
 .service {
     border-radius: 16px;
 }
@@ -199,4 +207,72 @@ color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
  
+.ContainerGrande {
+    height: 916px;
+    width: 1440px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    
+}
 
+.MenuNavegacion {
+    display:inline-block;
+    flex-direction: row;
+
+}
+
+.container_0{
+    flex-direction: row;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_0 h3{
+    font-size: 32px;
+}
+
+.menuNav{
+    display: flex;
+    list-style: none;
+}
+
+.menuNav li{
+    margin: 32px;
+    font-size: 16px;
+}
+
+.Logo{
+    color: rgba(120, 208, 0, 1);
+    font-family: "Afacad", sans-serif;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.Boton_header{
+    width: 76px;
+    height: 47.99px;
+    border-radius: 1000px;
+    background-color: rgba(120, 208, 0, 1);
+    border: none;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+
+.fondo-boton-header{
+    background-color: white;
+    border-radius: 1000px;
+    height: 40PX;
+    width: 40PX;
+    margin-left: 32px;
+}
+
+.img-boton-header {
+   height: 20PX;
+    width: 20PX;
+    margin: 12px;
+    
+}
