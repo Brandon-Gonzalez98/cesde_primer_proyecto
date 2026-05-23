@@ -12,6 +12,29 @@
     display: flex;
 }
 
+.container_1{
+    width: 830px;
+    height: 650px;
+    margin-left: 120px;
+    margin-top: 90px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.container_1 h1{
+    font-size: 96px;
+    margin: 0px;
+    color: #ffffff;
+    
+}
+.container_1 p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 .service {
     border-radius: 16px;
 }
@@ -213,6 +236,7 @@ color: rgb(255, 255, 255);
     overflow: hidden;
     background-size: cover;
     background-position: center;
+
     
 }
 
@@ -275,4 +299,183 @@ color: rgb(255, 255, 255);
     width: 20PX;
     margin: 12px;
     
+}
+
+.texto-Patrocinadores{
+    color: black;
+    font-size: 24px;
+    font-family: "afacad" sans-serif;
+    width: 646px;
+    height: 36px;
+    align-items: center;
+    margin-left: 397px;
+}
+
+.Patrocinadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-superior{
+    width: 1440px;
+    height: 276px;
+}
+.Patrocinadores img{
+    margin: 80px;
+}
+
+.ContenedorGrande{
+    width: 1440px;
+    height: 516px;
+}
+.texto-seccion h2{
+    width: 1045px;
+    height: 192px;
+    overflow: hidden;
+    font-size: 40px;
+    margin-left: 175px;
+    margin-top: 0px;
+}
+
+.contenedor-1 .service-icono{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.card-texto-1-1{
+    width: 372px;
+    height: 176px;
+    margin-right: 42px;
+}
+.card-texto-1-1 h4{
+    color:black;
+    padding: 0px;
+    margin: 20px 42px 20px 0px;
+}
+
+.card-texto{
+    display: flex;
+    margin: 54px 120px 80px 120px;
+    padding: 0px;
+}
+
+.card-texto-1-0{
+    display: flex;
+    margin: 80px 120px 0px 120px;
+    width: 1200px;
+    height: 148px;
+}
+
+.seccion5{
+    width: 1440px;
+    height: 864px;
+    margin: 150px 120px 79.99px 120px;
+}
+
+.seccion5-1{
+    width: 1200px;
+    display: flex;
+    align-items: center;  
+}
+
+.textoSeccion5{
+    margin-left: 54px;
+}
+.textoSeccion5 h2{
+    font-size: 40px;
+    width: 573px;
+    height: 96px;
+}
+
+.seccion5-1 img{
+    border-radius: 20px;
+}
+
+.seccion5-2{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+.texto5-2 h4{
+    color: black;
+    width: 267px;
+    margin: 0px;
+    
+}
+
+.Logo5-2{
+    background-color: rgba(120, 208, 0, 0.1);
+    border-radius: 100px;
+    width: 56px;
+    height: 56px;
+}
+
+.Logo5-2 img{
+    margin: 16px;
+}
+
+.texto6-1{
+    width: 552px;
+    height: 479px;
+    margin: 79px 120px 79px 120px;
+    color: #ffffff;
+    
+}
+.seccion6{
+    background: linear-gradient(179deg,hsl(0, 0%, 64%),black);
+    overflow: hidden;
+}
+
+.botonSeccion6{
+    width: 76px;
+    height: 47.99px;
+    border-radius: 1000px;
+    background-color: rgba(120, 208, 0, 1);
+    margin-top: 90px;
+}
+
+.btnseccion6{
+    border-radius: 1000px;
+    width: 40px;
+    height: 39px;
+    background-color: #ffffff;
+    margin-left: 22px;
+    
+}
+
+.btnseccion6 img{
+        margin: 8px;
+}
+
+.texto6-1 p{
+    margin: 0px;
+}
+
+.texto6-1 h1{
+    margin-bottom: 25px;
+}
+
+.Footer{
+    margin:0px 120px 79px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.tituloseccion7{
+    color: rgba(120, 208, 0, 1);
+}
+
+.listasSeccion7 li{
+    color: #ffffff;
+    list-style: none;
+}
+
+.listasSeccion7 h5{
+    color: rgba(102, 109, 128, 1);
+}
+
+.marcaRegistro{
+    color: #ffffff;
+    text-align: center;
 }
