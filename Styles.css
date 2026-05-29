@@ -428,6 +428,7 @@ color: rgb(255, 255, 255);
 .seccion6{
     background: linear-gradient(179deg,hsl(0, 0%, 64%),black);
     overflow: hidden;
+    backdrop-filter: blur(7px);
 }
 
 .botonSeccion6{
