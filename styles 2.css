@@ -1,35 +1,29 @@
-/* ═══════════════════════════════════════════
-   IMPORTACIÓN DE FUENTES
-═══════════════════════════════════════════ */
+
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Afacad:wght@400;600&family=Inter+Tight:wght@500&display=swap');
 
-
-/* ═══════════════════════════════════════════
-   VARIABLES DE DISEÑO (DESIGN TOKENS)
-═══════════════════════════════════════════ */
 :root {
-  /* Colores principales */
+  
   --primary-color:   #78d000;
   --primary-light:   rgba(120, 208, 0, 0.1);
   --primary-200:     #93d933;
 
-  /* Fondos */
+ 
   --background-white:   #ffffff;
   --background-light:   #f8fafb;
   --background-lighter: #f6f8fa;
 
-  /* Textos */
+  
   --text-dark:       #000000;
   --text-foreground: #0d0d12;
   --text-paragraph:  #666d80;
 
-  /* Bordes */
+  
   --border-light:   #eceff3;
   --border-lighter: #c1c7d0;
   --border-medium:  #dfe1e7;
   --border-dark:    #36394a;
 
-  /* Sombras */
+  
   --shadow-small:  0px 1px 2px 0px rgba(13, 13, 18, 0.06);
   --shadow-md:     0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
   --shadow-lg:     0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
@@ -39,9 +33,6 @@
 }
 
 
-/* ═══════════════════════════════════════════
-   RESET Y ESTILOS GLOBALES
-═══════════════════════════════════════════ */
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +51,6 @@ body {
   line-height: 1.6;
 }
 
-/* Tipografía base */
 h1 {
   font-family: 'ABeeZee', sans-serif;
   font-size: 82px;
@@ -107,10 +97,6 @@ a {
 }
 
 
-/* ═══════════════════════════════════════════
-   PLACEHOLDERS DE IMÁGENES
-   (Quita estas clases cuando coloques las imágenes reales)
-═══════════════════════════════════════════ */
 .img-placeholder {
   display: flex;
   flex-direction: column;
@@ -134,7 +120,6 @@ a {
   color: #888;
 }
 
-/* Hero — fondo completo */
 .img-placeholder--hero {
   width: 100%;
   height: 100%;
@@ -145,7 +130,7 @@ a {
   color: #3a5e2e;
 }
 
-/* About — imagen grande lateral */
+
 .img-placeholder--about {
   width: 100%;
   height: auto;
@@ -155,12 +140,10 @@ a {
   color: #3a5e2e;
 }
 .img-placeholder {
-  /* background: #e8edf0; */
   border: 2px dashed #aab5bf;
 
 }
 
-/* Benefit rows — imágenes de las capacidades */
 .img-placeholder--benefit {
   width: 100%;
   height: 100%;
@@ -170,7 +153,6 @@ a {
   color: #2a5068;
 }
 
-/* How it Works — imágenes de pasos */
 .img-placeholder--step {
   width: 100%;
   height: 100%;
@@ -180,7 +162,6 @@ a {
   color: #4a2e68;
 }
 
-/* Footer — fondo */
 .img-placeholder--footer-bg {
   width: 100%;
   height: 100%;
@@ -191,7 +172,6 @@ a {
   color: #a0b888;
 }
 
-/* Logos de partners */
 .img-placeholder--partner {
   height: 30px;
   min-width: 100px;
@@ -200,7 +180,6 @@ a {
   border-color: #c0c8d0;
 }
 
-/* Íconos medianos (logo navbar, footer) */
 .img-placeholder--icon {
   width: 36px;
   height: 36px;
@@ -208,7 +187,7 @@ a {
   border-radius: 6px;
 }
 
-/* Íconos pequeños (botones, timeline, cards) */
+
 .img-placeholder--icon-sm {
   width: 100%;
   height: 100%;
@@ -218,7 +197,6 @@ a {
   border-radius: 4px;
 }
 
-/* Estrellas de testimonios */
 .img-placeholder--stars {
   width: 152px;
   height: 24px;
@@ -228,10 +206,6 @@ a {
   color: #806000;
 }
 
-
-/* ═══════════════════════════════════════════
-   BADGE
-═══════════════════════════════════════════ */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -259,9 +233,6 @@ a {
 }
 
 
-/* ═══════════════════════════════════════════
-   BOTONES
-═══════════════════════════════════════════ */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -287,7 +258,6 @@ a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
 }
 
-/* Botón oscuro principal */
 .btn-contact,
 .btn-dark {
   background: var(--text-foreground);
@@ -300,7 +270,7 @@ a {
   padding: 4px 24px;
 }
 
-/* Botón demo (claro) */
+
 .btn-demo {
   margin-top: 24px;
   background: #ffffff;
@@ -317,7 +287,7 @@ a {
   background: #f2f4f8;
 }
 
-/* Botón verde footer */
+
 .btn-green-footer {
   background: var(--primary-color);
   color: var(--text-dark);
@@ -325,7 +295,6 @@ a {
   height: 48px;
 }
 
-/* Ícono circular dentro de botones (fondo blanco) */
 .btn-icon,
 .btn-icon-white {
   display: flex;
@@ -338,7 +307,7 @@ a {
   flex-shrink: 0;
 }
 
-/* Ícono circular dentro de botones (fondo negro) */
+
 .btn-icon-black {
   display: flex;
   align-items: center;
@@ -359,9 +328,6 @@ a {
 }
 
 
-/* ═══════════════════════════════════════════
-   HERO SECTION
-═══════════════════════════════════════════ */
 .hero-section {
   position: relative;
   width: 100%;
@@ -405,9 +371,8 @@ a {
 }
 
 
-/* ═══════════════════════════════════════════
-   NAVBAR
-═══════════════════════════════════════════ */
+
+
 .navbar {
   position: relative;
   z-index: 2;
@@ -451,10 +416,6 @@ a {
   color: var(--background-white);
 }
 
-
-/* ═══════════════════════════════════════════
-   HERO CONTENT
-═══════════════════════════════════════════ */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -488,10 +449,6 @@ a {
   color: var(--background-white);
 }
 
-
-/* ═══════════════════════════════════════════
-   PARTNERS SECTION
-═══════════════════════════════════════════ */
 .partners-section {
   background: var(--background-light);
   padding: 80px 120px;
@@ -519,10 +476,6 @@ a {
   opacity: 0.8;
 }
 
-
-/* ═══════════════════════════════════════════
-   ABOUT SECTION
-═══════════════════════════════════════════ */
 .about-section {
   background: var(--background-lighter);
   padding: 80px 120px 40px;
@@ -598,10 +551,6 @@ a {
   font-size: 40px;
 }
 
-
-/* ═══════════════════════════════════════════
-   WHO IT'S FOR SECTION
-═══════════════════════════════════════════ */
 .who-section {
   background: var(--background-white);
   padding: 80px 120px;
@@ -650,10 +599,6 @@ a {
   font-size: 32px;
 }
 
-
-/* ═══════════════════════════════════════════
-   KEY CAPABILITIES SECTION
-═══════════════════════════════════════════ */
 .capabilities-section {
   background: var(--background-white);
   padding: 80px 120px;
@@ -681,7 +626,6 @@ a {
   line-height: 1.55;
 }
 
-/* Filas de beneficios */
 .benefit-row {
   display: flex;
   gap: 80px;
@@ -711,10 +655,6 @@ a {
   box-shadow: var(--shadow-md);
 }
 
-
-/* ═══════════════════════════════════════════
-   HOW IT WORKS SECTION
-═══════════════════════════════════════════ */
 .how-section {
   background: var(--background-white);
   padding: 80px 120px;
@@ -803,10 +743,6 @@ a {
   box-shadow: var(--shadow-md);
 }
 
-
-/* ═══════════════════════════════════════════
-   TESTIMONIALS SECTION
-═══════════════════════════════════════════ */
 .testimonials-section {
   background: var(--background-white);
   padding: 80px 120px 54px;
@@ -888,7 +824,7 @@ a {
   line-height: 1.55;
 }
 
-/* Controles del carrusel */
+
 .testimonials-scroll {
   display: flex;
   justify-content: space-between;
@@ -936,10 +872,6 @@ a {
   border: none;
 }
 
-
-/* ═══════════════════════════════════════════
-   FOOTER SECTION
-═══════════════════════════════════════════ */
 .footer-section {
   position: relative;
   background: var(--text-foreground);
@@ -1092,9 +1024,6 @@ a {
 }
 
 
-/* ═══════════════════════════════════════════
-   RESPONSIVE
-═══════════════════════════════════════════ */
 @media (max-width: 1200px) {
   .who-cards {
     grid-template-columns: repeat(2, 1fr);
